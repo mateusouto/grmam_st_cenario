@@ -30,7 +30,7 @@ st.title("Mercado de Trabalho - PNAD")
 # --- Dados ---
 
 # importar dados pnad
-df_raw = pd.read_excel(f'{path_base_dados}\dados-pnad.xlsx')
+df_raw = pd.read_excel(f'dados-pnad.xlsx')
 df_raw.set_index('Data', inplace=True)
 
 
