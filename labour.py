@@ -14,7 +14,7 @@ st.set_page_config(page_title = 'GRM-AM',
 locale.setlocale(locale.LC_ALL, 'pt_pt.UTF-8')
 
 # path para a base de dados
-path_base_dados = f'c:\\Users\\{os.getlogin()}\\OneDrive - Petros - Fundação Petrobras de Seguridade Social\\GRM_Macro\\Banco de Dados'
+#path_base_dados = f'c:\\Users\\{os.getlogin()}\\OneDrive - Petros - Fundação Petrobras de Seguridade Social\\GRM_Macro\\Banco de Dados'
 
 # página do streamlit
 # st.set_page_config(page_title = 'GRM-AM',
