@@ -43,6 +43,10 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
+#GithubIcon {
+  visibility: hidden;
+}
+
 path_bd_cenarios = "C:\\Users\\Mateus\\Documents\\1 doc (esse aqui)\\repository\\Cenário Macro (GRM_AM).xlsx"
 
 # data da última atualização de cenário
