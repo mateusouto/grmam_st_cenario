@@ -42,10 +42,12 @@ st.markdown(
     </style>
     """, unsafe_allow_html=True
 )
-
+hide_github_icon = """
 #GithubIcon {
   visibility: hidden;
 }
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 path_bd_cenarios = "C:\\Users\\Mateus\\Documents\\1 doc (esse aqui)\\repository\\Cenário Macro (GRM_AM).xlsx"
 
