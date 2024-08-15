@@ -149,7 +149,7 @@ class DashCenarios:
             _type_: nested dict com cada aba do excel
         """
         # lê o excel
-        excel_raw = pd.ExcelFile(path_bd_cenarios)
+        excel_raw = pd.ExcelFile("Cenário Macro (GRM_AM).xlsx")
         
         # coleta o nome das abas (que são as frequencias)
         nomes_abas = excel_raw.sheet_names[:3]
