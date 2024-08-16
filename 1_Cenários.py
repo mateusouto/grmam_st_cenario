@@ -40,14 +40,17 @@ st.markdown(
             visibility: hidden;
         }
     </style>
-    """, unsafe_allow_html=True
+    """,
+  unsafe_allow_html=True
 )
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+# remove botão do github
+st.markdown(
+  """
+  <style>
+  #GithubIcon {visibility: hidden;}
+""",
+  unsafe_allow_html=True
+)
 
 path_bd_cenarios = "C:\\Users\\Mateus\\Documents\\1 doc (esse aqui)\\repository\\Cenário Macro (GRM_AM).xlsx"
 
