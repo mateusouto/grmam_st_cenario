@@ -52,8 +52,6 @@ st.markdown(
   unsafe_allow_html=True
 )
 
-path_bd_cenarios = "C:\\Users\\Mateus\\Documents\\1 doc (esse aqui)\\repository\\Cenário Macro (GRM_AM).xlsx"
-
 # data da última atualização de cenário
 data_ref_ultim_atual = dt.date(2024,8,13)
 
@@ -67,12 +65,12 @@ dict_cenarios = {
 # data do último dado disponível para cada indicador 
 dict_data_ref = {
     'CDI': '2024-08-01',
-    'IGP-M': '2024-07-01',
+    'IGP-M': '2024-08-01',
     'IPCA': '2024-07-01',
-    'R$/US$': '2024-07-01',
-    'Risco-país': '2024-07-01',
+    'R$/US$': '2024-08-01',
+    'Risco-país': '2024-08-01',
     'SELIC Meta': '2024-08-01',
-    'PIB': '2024-03-01'
+    'PIB': '2024-06-01'
 }
 
 
