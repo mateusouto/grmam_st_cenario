@@ -53,13 +53,13 @@ st.markdown(
 )
 
 # data da última atualização de cenário
-data_ref_ultim_atual = dt.date(2024,8,13)
+data_ref_ultim_atual = dt.date(2024,9,23)
 
 # 
 dict_cenarios = {
-    'Base': ['Inflação Global Resiliente', '45%'],
-    'Alternativo': ['Hard Landing US', '20%'],
-    'Pessimista': ['Desancoragem das Expectativas', '35%']
+    'Base': ['Inflação Global Resiliente', '50%'],
+    'Alternativo': ['Hard Landing US', '10%'],
+    'Pessimista': ['Desancoragem das Expectativas', '40%']
 }
 
 # data do último dado disponível para cada indicador 
