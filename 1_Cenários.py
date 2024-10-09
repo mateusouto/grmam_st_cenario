@@ -439,8 +439,7 @@ left_column, right_column = st.columns(2)
 for indicador in sb_indicador:
     if indicador in ['CDI']:
         pass
-    else:
-    # elif indicador in ['SELIC Meta', 'IPCA', 'R$/US$', 'Risco-país', 'PIB', 'IGP-M']:
+    elif indicador in ['SELIC Meta', 'IPCA', 'R$/US$', 'Risco-país', 'PIB', 'IGP-M']:
         # tratamento/filtragem para o plot.
         # se quiser que a seleção do gráfico seja igual a seleção da tabela: usar o df_selection e só indicar qual o Indicador, de resto filtra sozinho.
         df_1 = (
@@ -455,7 +454,7 @@ for indicador in sb_indicador:
             ]
         )
         
-        if indicador in ['IPCA', 'IGP-M', 'PIB'] or sb_frequencia == 'Anual' or 'Externo':
+        if indicador in ['IPCA', 'IGP-M', 'PIB'] or sb_frequencia == 'Anual' or 'Externo' in df_1['Região']:
             # cria a figura para o plot
             fig = px.bar(
                 df_1,
