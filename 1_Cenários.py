@@ -65,7 +65,7 @@ dict_cenarios = {
 # data do último dado disponível para cada indicador 
 dict_data_ref = {
     'CDI': '2024-10-01',
-    'IGP-M': '2024-08-01',
+    'IGP-M': '2024-09-01',
     'IPCA': '2024-09-01',
     'R$/US$': '2024-09-01',
     'Risco-país': '2024-09-01',
