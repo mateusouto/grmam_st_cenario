@@ -268,7 +268,7 @@ def config_sidebar(df, dict_cenarios):
     
     # filtro para selecionar período
     sb_frequencia = st.sidebar.selectbox(
-        "Selecione a Frequência ou Cenário Externo:",
+        "Selecione a Frequência:",
         options=df['Frequência'].unique(),
         index=0)
 
